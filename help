@@ -8,7 +8,7 @@ echo "缺少标准开发工具automake autoconf，请先安装开发工具"
 exit 1
 fi
 
-echo "2、调用./configure脚本自动完成各项检查"
+echo "2、3调用./configure脚本自动完成各项检查"
 ./configure
 if test $? != 0 ; then
 echo "缺少开发库，请参考Install.html文档安装所有开发工具"
